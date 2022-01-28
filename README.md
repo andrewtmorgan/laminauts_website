@@ -11,7 +11,8 @@ This website code was created with [Sphinx](https://www.sphinx-doc.org/en/master
 
 You can then clone this repository and build it:
 
-    cd /path/to/laminauts_website
+    git clone https://github.com/andrewtmorgan/laminauts_website.git
+    cd laminauts_website
     sphinx-build -b html source build
 
 This will produce a local version of the website in a build folder. You can examine it using:
